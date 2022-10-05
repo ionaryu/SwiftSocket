@@ -150,7 +150,7 @@
 		5518C82619A3290F0049DC22 = {
 			isa = PBXGroup;
 			children = (
-				5518C83119A329100049DC22 /* Source */,
+				5518C83119A329100049DC22 /* SwiftSocket */,
 				375C482E1DDC4C56008C701D /* iOS Example */,
 				5518C83019A329100049DC22 /* Products */,
 				474DB23C28ED71140044D3B0 /* SwiftSocket.plist */,
@@ -169,7 +169,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5518C83119A329100049DC22 /* Source */ = {
+		5518C83119A329100049DC22 /* SwiftSocket */ = {
 			isa = PBXGroup;
 			children = (
 				372313981DCF84EC0042DA87 /* Result.swift */,
@@ -178,7 +178,7 @@
 				375BC51E1DCDE878006AD8F6 /* UDPSocket */,
 				377DAA6A1DCDE40200009697 /* Supporting Files */,
 			);
-			name = Source;
+			name = SwiftSocket;
 			path = SwiftC;
 			sourceTree = "<group>";
 		};
