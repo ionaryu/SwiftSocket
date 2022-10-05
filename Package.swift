@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "SwiftSocket", targets: ["SwiftSocket"])
     ],
     targets: [
-        .target(name: "SwiftSocket", path: "Source", dependencies: []),
+        .target(name: "SwiftSocket", dependencies: []),
     ],
     swiftLanguageVersions: [.v5]
 )
