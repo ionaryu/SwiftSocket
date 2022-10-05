@@ -63,7 +63,7 @@
 		377DAA691DCDE40200009697 /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		377DAA761DCDE45D00009697 /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		474DB23B28ED71140044D3B0 /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		474DB23C28ED71140044D3B0 /* SwiftSocket iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwiftSocket iOS copy-Info.plist"; path = "/Users/swint/github/SwiftSocket/SwiftSocket iOS copy-Info.plist"; sourceTree = "<absolute>"; };
+		474DB23C28ED71140044D3B0 /* SwiftSocket.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = SwiftSocket.plist; path = /Users/swint/github/SwiftSocket/SwiftSocket.plist; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +153,7 @@
 				5518C83119A329100049DC22 /* Source */,
 				375C482E1DDC4C56008C701D /* iOS Example */,
 				5518C83019A329100049DC22 /* Products */,
-				474DB23C28ED71140044D3B0 /* SwiftSocket iOS copy-Info.plist */,
+				474DB23C28ED71140044D3B0 /* SwiftSocket.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -739,7 +739,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "SwiftSocket iOS copy-Info.plist";
+				INFOPLIST_FILE = SwiftSocket.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -774,7 +774,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "SwiftSocket iOS copy-Info.plist";
+				INFOPLIST_FILE = SwiftSocket.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
