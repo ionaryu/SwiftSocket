@@ -3,11 +3,14 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftSocket",
+    platforms: [
+        .iOS(.v9)
+    ],
     products: [
         .library(name: "SwiftSocket", targets: ["SwiftSocket"])
     ],
     targets: [
-        .target(name: "SwiftSocket iOS", dependencies: []),
+        .target(name: "SwiftSocket", dependencies: []),
     ],
     swiftLanguageVersions: [.v5]
 )
